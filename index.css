@@ -35,7 +35,7 @@ h1,h2,h3,h5{
 }
 
 .navbar {
-    background-color: 353330; /* Background color */
+    background-color: #8F754F; /* Background color */
     height: 15%;
     display: flex; /* Flex layout to align items */
     justify-content: space-between; /* Align items horizontally */
@@ -53,16 +53,6 @@ h1,h2,h3,h5{
     margin-left: 50px;
 }
 
-.navbar ul {
-    list-style-type: none; /* Remove bullet points */
-    margin: 0;
-    margin-right: 30px;
-    padding: 0;
-    display: flex; /* Flex layout for the list */
-}
-.navbar li {
-    margin-right: 20px; /* Adjust space between list items */
-}
 
 .navbar li a {
     text-decoration: none; /* Remove underline from links */
@@ -78,6 +68,54 @@ h1,h2,h3,h5{
     color: #8F7854; /* Background color on hover */
 }
 
+.navbarcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbarcontent i{
+    /* position: relative; */
+}
+.navbarcontent ul{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vh;
+    background-color: gainsboro;
+    gap: 10px;
+    right: 10px;
+    top: 30px;
+}
+
+.navbarcontent i:hover .navbarcontent ul{
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.nav-links li {
+    margin: 10px 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #333;
+}
+
+.navbarcontent i:hover .nav-links {
+    display: flex;
+    
+}
 .welcome{
     /* height: 70vh; */
     /* margin-top: 150px;
