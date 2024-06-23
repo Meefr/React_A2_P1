@@ -108,7 +108,8 @@ h1,h2,h3,h5{
 }
 
 .welcome p{
-    font-size: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 
 .welcome button{
@@ -312,7 +313,6 @@ h1,h2,h3,h5{
 .contactContainer{
     display: flex;
     align-items: center;
-    padding: 100px;
     background-color: #F8F9FA;
    
     /* scroll-margin-block-start: 110px;
@@ -323,6 +323,7 @@ h1,h2,h3,h5{
 .contacvtInformation{
     display: inline-block;
     width: 50%;
+    padding: 50px;
 }
 
 .contactDetails{
@@ -382,9 +383,9 @@ h1,h2,h3,h5{
     }
 
     .welcome button{
-        padding: 15px;
+        padding: 30px;
         color: white;
-        font-size: 10px;
+        font-size: 15px;
         border-radius: 10px;
         background-color: black;
     }
@@ -410,7 +411,7 @@ h1,h2,h3,h5{
        flex-wrap: wrap;
        justify-content: center;
        /* text-align: center; */
-       width: 80%;
+       width: 100%;
        margin: 0 auto;
     }
     
