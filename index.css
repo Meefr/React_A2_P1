@@ -94,6 +94,8 @@ h1,h2,h3,h5{
     justify-content: center;
     flex-direction: column;
     background-image: url(Images/drew-coffman-1872.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: gray;
 }
 
