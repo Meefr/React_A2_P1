@@ -99,6 +99,9 @@ h1,h2,h3,h5{
     color: gray;
 }
 
+.nav-item{
+    margin-left: 80px;
+}
 .welcome h3{
     font-size: 30px;
     margin-bottom: 40px;
@@ -379,6 +382,9 @@ h1,h2,h3,h5{
 
 @media screen and (max-width: 1200px){
 
+    .container1{
+        width: 100%;
+    }
     .container1 .img1{
         width: 100%;
     }
